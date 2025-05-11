@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="build/main.css" />
+  </head>
+  <body>
+    <div class="h-screen flex flex-col">
+      <!-- Header -->
+      <header class="flex justify-end w-full p-5 space-x-4">
+        <div class="flex items-center space-x-4">
+          <p class="">Gmail</p>
+          <p class="">Images</p>
+        </div>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-grid-dots w-10 h-10 cursor-pointer hover:bg-gray-100 p-2 rounded-full"
+          width="44"
+          height="44"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="#00bfd8"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="5" cy="5" r="1" />
+          <circle cx="12" cy="5" r="1" />
+          <circle cx="19" cy="5" r="1" />
+          <circle cx="5" cy="12" r="1" />
+          <circle cx="12" cy="12" r="1" />
+          <circle cx="19" cy="12" r="1" />
+          <circle cx="5" cy="19" r="1" />
+          <circle cx="12" cy="19" r="1" />
+          <circle cx="19" cy="19" r="1" />
+        </svg>
+
+        <img
+          src="images/profile-anhnn.jpg"
+          alt=""
+          class="h-10 rounded-full border-4 hover:border-green-500"
+        />
+      </header>
+      <!-- Main Content -->
+      <section class="mt-44 h-32">
+        <form action="" class="flex flex-col items-center justify-center">
+          <div class="">
+            <img src="./images/google.png" alt="" class="h-36" />
+          </div>
+
+          <div
+            class="flex items-center w-full border border-gray-200 rounded-full py-3 px-5 hover:shadow-lg max-w-2xl mt-5"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6 text-gray-500 mr-2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+              />
+            </svg>
+
+            <input type="text" class="flex-grow focus:outline-none" />
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6 text-gray-500"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z"
+              />
+            </svg>
+          </div>
+
+          <div class="flex flex-row mt-8 space-x-2">
+            <button
+              class="p-3 text-gray-400 ring-gray-200 rounded-md hover:ring-1 focus:outline-none"
+            >
+              Google Search</button
+            ><button
+              class="p-3 text-gray-400 ring-gray-200 rounded-md hover:ring-1 focus:outline-none"
+            >
+              I'm Feeling lucky
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Footer -->
+      <footer class="bg-gray-100 mt-auto text-gray-500 w-full">
+        <div class="px-10 py-2">Vietnam</div>
+        <hr />
+        <div class="grid grid-cols-2 pb-4 mx-10 pt-2">
+          <div class="flex justify-start space-x-4">
+            <p class="">About</p>
+            <p class="">Advertising</p>
+            <p class="">Business</p>
+            <p class="">How search works</p>
+          </div>
+          <div class="flex justify-end">
+            <p class="">Privacy</p>
+            <p class="">Terms</p>
+            <p class="">Settings</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
